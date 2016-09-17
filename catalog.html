@@ -10,7 +10,7 @@
       <div class="logo">
         <img src="http://placehold.it/150x100" width="150" height="100" alt="Мишка">
       </div>
-      <button class="toggle-menu"></button>
+      <button class="toggle-menu">Скрыть/Показать меню</button>
       <nav class="main-navigation">
         <ul class="main-menu">
           <li class="main-menu__item"><a class="main-menu__link" href="#">Каталог товаров</a></li>
@@ -32,7 +32,7 @@
             <a class="catalog__order" href="#">Добавить в корзину</a>
           </li>
           <li class="catalog__item">
-          <img class="catalog__image" src="http://placehold.it/260x195" width="260" height="195" alt="Корзинка для белья">
+            <img class="catalog__image" src="http://placehold.it/260x195" width="260" height="195" alt="Корзинка для белья">
             <h2 class="catalog__title">Корзинка для белья</h2>
             <div class="catalog__description">Диаметр 15 см, высота 10 см</div>
             <div class="catalog__price">690 руб.</div>
@@ -68,12 +68,33 @@
         </div>
       </section>
       <section class="copyright">
-        <span class="copyright__text">Разработано<span>
+        <span class="copyright__text">Разработано</span>
         <a class="copyright__logo" href="https://htmlacademy.ru">
           <img src="http://placehold.it/27x34" width="27" height="34" alt="HTML Academy">
         </a>
       </section>
     </footer>
+  </div>
+  <div class="cart-modal">
+    <form class="cart-form" action="#" method="post">
+      <div class="cart-form__title">Добавить в корзину</div>
+      <div class="cart-form__text">Выберите размер:</div>
+      <ul class="cart-form__size-list">
+        <li class="cart-form__size-item">
+          <input class="cart-form__radio" type="radio" name="size" id="s" value="s" checked>
+          <label class="cart-form__label" for="s">s</label>
+        </li>
+        <li class="cart-form__size-item">
+          <input class="cart-form__radio" type="radio" name="size" id="m" value="m">
+          <label class="cart-form__label" for="m">m</label>
+        </li>
+        <li class="cart-form__size-item">
+          <input class="cart-form__radio" type="radio" name="size" id="l" value="l">
+          <label class="cart-form__label" for="l">l</label>
+        </li>
+      </ul>
+      <button class="cart-form__btn" type="submit">Добавить</button>
+    </form>
   </div>
 </body>
 </html>
