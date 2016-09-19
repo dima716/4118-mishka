@@ -1,12 +1,164 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Мишка</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Мишка</title>
+</head>
+<body class="index-page">
+  <div class="site-wrapper">
+    <header class="main-header">
+      <div class="logo">
+        <img src="http://placehold.it/150x100" width="150" height="100" alt="Мишка">
+      </div>
+      <button class="toggle-menu">Скрыть/Показать меню</button>
+      <nav class="main-navigation">
+        <ul class="main-menu">
+          <li class="main-menu__item"><a class="main-menu__link" href="#">Каталог товаров</a></li>
+          <li class="main-menu__item"><a class="main-menu__link" href="#">Вязание на заказ</a></li>
+          <li class="main-menu__item"><a class="main-menu__link  main-menu__link--search" href="#">Поиск по сайту</a></li>
+          <li class="main-menu__item"><a class="main-menu__link  main-menu__link--cart" href="#">Корзина: пока пуста</a></li>
+        </ul>
+      </nav>
+      <div class="slogan">
+        <h1 class="title  title--lg  slogan__title">Милые штуки ручной работы для дома</h1>
+      </div>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link  menu__link--interior-goods" href="#">Предметы <br> интерьера</a></li>
+        <li class="menu__item"><a class="menu__link  menu__link--toys" href="#">Детские <br> игрушки</a></li>
+      </ul>
+    </header>
+    <main class="index-content">
+      <section class="product-of-week">
+        <hgroup>
+          <h2 class="title  title--md  product-of-week__title">Вязанные корзинки</h2>
+          <h3 class="product-of-week__sub-title">товар недели</h3>
+        </hgroup>
+        <p class="product-of-week__text">
+          Экологически чистая пряжа, ручная работа.
+          Доступны в шести расцветках, и трех размерах.
+        </p>
+        <table class="product-of-week__table">
+          <tr>
+            <td>Цвет:</td>
+            <td>«Тиффани»/серый</td>
+          </tr>
+          <tr>
+            <td>Диаметр:</td>
+            <td>25 см</td>
+          </tr>
+          <tr>
+            <td>Высота:</td>
+            <td>15 см</td>
+          </tr>
+        </table>
+        <img class="product-of-week__image" src="http://placehold.it/260x315" width="260" height="315" alt="Товар недели">
+        <div class="product-of-week__price">Цена: 990 руб.</div>
+        <a class="btn product-of-week__order" href="#">заказать</a>
+      </section>
+      <section class="about">
+        <h2 class="title  title--md  about__title">Коротко о нас:</h2>
+        <ul class="about__list">
+          <li class="about__item  about__item--materials">Экологически чистые материалы</li>
+          <li class="about__item  about__item--price">Скандинавский стиль по российской цене</li>
+          <li class="about__item  about__item--likes">Увеличивает лайки на фотографиях</li>
+          <li class="about__item  about__item--tie">Свяазано вручную с любовью и умилением</li>
+          <li class="about__item  about__item--support">Поддержка отечественного производителя</li>
+          <li class="about__item  about__item--gift">Поставляется в подарочной упаковке</li>
+        </ul>
+      </section>
+      <section class="references">
+        <h2 class="title  title--md">Отзывы</h2>
+        <div class="references-slider">
+          <ul class="references-slider__list">
+            <li class="references-slider__item">
+              Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков,
+              как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке,
+              и мои фотографии сразу стали более стильнее, а также набирают больше лайков!
+              <div class="references-slider__author">Анастасия Красильникова</div>
+              <div class="references-slider__nickname">@misssssiskras</div>
+            </li>
+            <li class="references-slider__item">
+              Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков,
+              как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке,
+              и мои фотографии сразу стали более стильнее, а также набирают больше лайков!
+              <div class="references-slider__author">Анастасия Красильникова</div>
+              <div class="references-slider__nickname">@misssssiskras</div>
+            </li>
+            <li class="references-slider__item">
+              Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков,
+              как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке,
+              и мои фотографии сразу стали более стильнее, а также набирают больше лайков!
+              <div class="references-slider__author">Анастасия Красильникова</div>
+              <div class="references-slider__nickname">@misssssiskras</div>
+            </li>
+          </ul>
+          <div class="references-slider__navigation">
+            <button class="references-slider__navigation-btn  references-slider__navigation-btn--left" type="button">Следующий отзыв</button>
+            <button class="references-slider__navigation-btn  references-slider__navigation-btn--right" type="button">Предыдущий отзыв</button>
+          </div>
+          <a class="btn  references-slider__btn" href="#">написать</a>
+        </div>
+      </section>
+      <section class="contacts">
+        <h2 class="title  title--sm">Контакты</h2>
+        <div class="contacts__row">
+          <div class="contacts__cell">email:</div>
+          <div class="contacts__cell">
+            <a href="mailto:info@mimimishkashop.ru">info@mimimishkashop.ru</a>
+          </div>
+        </div>
+        <div class="contacts__row">
+          <div class="contacts__cell">адрес:</div>
+          <div class="contacts__cell">
+            <a href="mailto:info@mimimishkashop.ru">г. Санкт-Петербург,<br>
+              ул.Большая<br>
+              Конюшенная,<br>
+              д. 19/8, офис 191
+            </a>
+          </div>
+        </div>
+        <div class="contacts__map">
+          <img src="http://placehold.it/320x457" width="320" height="457" alt="Карта">
+        </div>
+        <a class="btn  contacts__btn" href="#">напишите нам</a>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <section class="social">
+        <div class="social-buttons">
+          <a class="social-button  social-button--instagram" href="#">instagram</a>
+          <a class="social-button  social-button--facebook" href="#">facebbok</a>
+          <a class="social-button  social-button--twitter" href="#">twitter</a>
+        </div>
+      </section>
+      <section class="copyright">
+        <div class="copyright__text">Разработано</div>
+        <a class="copyright__logo" href="https://htmlacademy.ru">
+          <img src="http://placehold.it/27x34" width="27" height="34" alt="HTML Academy">
+        </a>
+      </section>
+    </footer>
+  </div>
+  <div class="cart-modal">
+    <form class="cart-form" action="#" method="post">
+      <div class="cart-form__title">Добавить в корзину</div>
+      <div class="cart-form__text">Выберите размер:</div>
+      <ul class="cart-form__size-list">
+        <li class="cart-form__size-item">
+          <input class="cart-form__radio" type="radio" name="size" id="s" value="s" checked>
+          <label class="cart-form__label" for="s">s</label>
+        </li>
+        <li class="cart-form__size-item">
+          <input class="cart-form__radio" type="radio" name="size" id="m" value="m">
+          <label class="cart-form__label" for="m">m</label>
+        </li>
+        <li class="cart-form__size-item">
+          <input class="cart-form__radio" type="radio" name="size" id="l" value="l">
+          <label class="cart-form__label" for="l">l</label>
+        </li>
+      </ul>
+      <button class="cart-form__btn" type="submit">Добавить</button>
+    </form>
+  </div>
+</body>
 </html>
