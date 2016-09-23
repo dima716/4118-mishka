@@ -1,0 +1,55 @@
+.catalog {
+  @mixin border-line #FFFF7A;
+
+  &__title {
+    @mixin border-line #FFCC33;
+
+    min-height: 177px;
+    line-height: 177px;
+    background-color: #f1f1f1;
+    text-align: center;
+
+    margin-bottom: 30px;
+  }
+
+  &__list {
+    @mixin reset-ul;
+  }
+
+  &__item-wrapper {
+    padding-right: 27px;
+    padding-left: 28px;
+  }
+
+  &__item {
+    @mixin border-line #3F5D7D;
+    margin-bottom: 30px;
+  }
+
+  &__item-title {
+    font-size: 17px;
+    line-height: 24px;
+    color: #000;
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__description {
+    font-size: 13px;
+    line-height: 30px;
+  }
+
+  &__price {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 24px;
+    color: #000;
+  }
+
+  &__order {
+    text-decoration: none;
+    color: #444;
+  }
+}

@@ -1,0 +1,3 @@
+.promo {
+  @mixin border-line #279B61;
+}

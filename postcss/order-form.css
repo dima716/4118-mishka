@@ -1,0 +1,36 @@
+.order-form {
+  @mixin border-line #993333;
+
+  &__wrapper {
+    margin-top: 33px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #63d1bb;
+  }
+
+  &__label {
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 18px;
+    color: #000;
+  }
+
+  &__note {
+    font-size: 13px;
+  }
+
+  &__textarea {
+    box-sizing: border-box;
+    width: 100%;
+  }
+}

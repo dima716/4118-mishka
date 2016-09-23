@@ -1,0 +1,26 @@
+.product-of-week {
+  @mixin border-line #008AB8;
+  padding-bottom: 43px;
+
+  &__sub-title {
+    margin: 0;
+    font-size: 17px;
+    line-height: 16px;
+    color: #63d1bb;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    line-height: 24px;
+  }
+
+  &__table {
+    line-height: 20px;
+  }
+
+  &__price {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+}

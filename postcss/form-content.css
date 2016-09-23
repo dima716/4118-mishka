@@ -1,0 +1,20 @@
+.form-content {
+  @mixin border-line #008AB8;
+  padding-bottom: 55px;
+
+  &__title {
+    @mixin border-line  #279B61;
+
+    min-height: 177px;
+    line-height: 177px;
+    background-color: #f1f1f1;
+    text-align: center;
+
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,3 @@
+.main-header {
+  @mixin border-line #3F5D7D;
+}

@@ -1,0 +1,25 @@
+.references-slider {
+  &__list {
+    @mixin reset-ul;
+  }
+
+  &__item {
+    font-size: 15px;
+    line-height: 30px;
+
+    &:not(:first-child) {
+      display: none;
+    }
+  }
+
+  &__author {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+  }
+
+  &__nickname {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}

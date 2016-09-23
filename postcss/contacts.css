@@ -1,0 +1,17 @@
+.contacts {
+  @mixin border-line #95CAE4;
+  padding-bottom: 40px;
+
+  &__cell {
+    vertical-align: top;
+    display: inline-block;
+    line-height: 30px;
+  }
+
+  &__email {
+    display: block;
+    text-decoration: none;
+    color: #444;
+    border-bottom: 1px solid #62d1ba;
+  }
+}

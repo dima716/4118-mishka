@@ -1,0 +1,7 @@
+.slogan {
+  box-sizing: border-box;
+  min-height: 284px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: url(../img/hero-mobile@1x.jpg) no-repeat center -13px #fbfbfb;
+}

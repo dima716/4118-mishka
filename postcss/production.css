@@ -1,0 +1,14 @@
+.production {
+  @mixin border-line #CC6699;
+  padding-bottom: 33px;
+
+  &__description {
+    padding-left: 34px;
+    padding-right: 42px;
+  }
+
+  &__text {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}
