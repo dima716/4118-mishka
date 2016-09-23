@@ -1,39 +1,43 @@
-/* Common */
+/* Mixins */
 @import 'mixins.css';
-@import 'base.css';
-@import 'site-wrapper.css';
-@import 'container.css';
-@import 'main-header.css';
-@import 'logo.css';
-@import 'toggle-menu.css';
-@import 'main-navigation.css';
-@import 'main-menu.css';
-@import 'main-footer.css';
-@import 'social.css';
-@import 'social-buttons.css';
-@import 'social-button.css';
-@import 'copyright.css';
-@import 'cart-modal.css';
-@import 'cart-form.css';
+
+/* Globals */
+@import 'global/base.css';
+
+/* Common */
+@import 'blocks/site-wrapper.css';
+@import 'blocks/container.css';
+@import 'blocks/main-header.css';
+@import 'blocks/logo.css';
+@import 'blocks/toggle-menu.css';
+@import 'blocks/main-navigation.css';
+@import 'blocks/main-menu.css';
+@import 'blocks/main-footer.css';
+@import 'blocks/social.css';
+@import 'blocks/social-buttons.css';
+@import 'blocks/social-button.css';
+@import 'blocks/copyright.css';
+@import 'blocks/cart-modal.css';
+@import 'blocks/cart-form.css';
 
 /* Index */
-@import 'promo.css';
-@import 'slogan.css';
-@import 'title.css';
-@import 'menu.css';
-@import 'index-content.css';
-@import 'product-of-week.css';
-@import 'btn.css';
-@import 'about.css';
-@import 'references.css';
-@import 'references-slider.css';
-@import 'contacts.css';
+@import 'blocks/promo.css';
+@import 'blocks/slogan.css';
+@import 'blocks/title.css';
+@import 'blocks/menu.css';
+@import 'blocks/index-content.css';
+@import 'blocks/product-of-week.css';
+@import 'blocks/btn.css';
+@import 'blocks/about.css';
+@import 'blocks/references.css';
+@import 'blocks/references-slider.css';
+@import 'blocks/contacts.css';
 
 /* Catalog */
-@import 'catalog.css';
-@import 'catalog-content.css';
-@import 'production.css';
+@import 'blocks/catalog.css';
+@import 'blocks/catalog-content.css';
+@import 'blocks/production.css';
 
 /* Form */
-@import 'form-content.css';
-@import 'order-form.css';
+@import 'blocks/form-content.css';
+@import 'blocks/order-form.css';
